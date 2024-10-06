@@ -118,10 +118,6 @@ a {
 /*-----	Section 3---- */
 .team {
   background-color: #f4f4fd;
-  background-color: #ffffff;
-}
-.team-list {
-  background-color: #ffffff;
 }
 
 .team-section-title {
@@ -132,6 +128,10 @@ a {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+
+.team-list {
+  background-color: #ffffff;
 }
 
 .team-name {

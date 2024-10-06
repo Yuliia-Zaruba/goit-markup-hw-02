@@ -1,7 +1,8 @@
 /* -------BODY-------- */
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #fff;
+	background-color: #fff;
+	color: #434455;
 }
 ul {
 	list-style: none;
@@ -9,6 +10,8 @@ ul {
 a {
 	text-decoration: none;
 }
+
+/* -------HEADER--------- */
 
 .header-logo {
 	font-family: 'Raleway', sans-serif;
@@ -39,8 +42,22 @@ a {
 	letter-spacing: 0.02em;
 	color: #434455;
 }
+/*2PC!)У першому пункті списку, при ховері, у посилання, в класі заданий стиль color: #404bbf для зміни кольору шрифту при наведені мишкою  */
+.header-contact-link .link:hover {
+	color: #404bbf;
+}
+
+.header-contact-link .link:focus {
+	color: #404bbf;
+}
+
+.header-contact-info {
+	font-style: normal;
+}
+
 /* -------MAIN-------- */
 /*-----	Section 1---- */
+
 .hero {
 	background: #2e2f42;
 }
@@ -61,13 +78,25 @@ a {
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	color: #fff;
+	cursor: pointer;
+	background-color: #4d5ae5;
+}
+/* ------Додала hover FOCUS------ */
+.hero-button .link:hover {
+	background-color: #404bbf;
+}
+
+.hero-button .link:focus {
+	background-color: #404bbf;
 }
 
 /*-----	Section 2---- */
+
 .service {
 	background: #fff;
 }
 
+.service-heading,
 .service-title {
 	font-weight: 500;
 	font-size: 20px;
@@ -85,8 +114,8 @@ a {
 }
 
 /*-----	Section 3---- */
-. team {
-	background: #f4f4fd;
+.team {
+	background-color: #f4f4fd;
 }
 
 .team-section-title {
@@ -94,9 +123,11 @@ a {
 	font-size: 36px;
 	line-height: 1.11;
 	letter-spacing: 0.02em;
+	text-transform: capitalize;
 	text-align: center;
 	color: #2e2f42;
 }
+/* ---------добавила белый фон на h3 и р------------*/
 
 .team-name {
 	font-weight: 500;
@@ -105,6 +136,7 @@ a {
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: #2e2f42;
+	background: #ffffff;
 }
 
 .team-role {
@@ -114,6 +146,7 @@ a {
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: #434455;
+	background: #ffffff;
 }
 
 /*-----	Section 4---- */
@@ -125,8 +158,9 @@ a {
 .portfolio-section-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.11111;
+	line-height: 1.11;
 	letter-spacing: 0.02em;
+	text-transform: capitalize;
 	text-align: center;
 	color: #2e2f42;
 }

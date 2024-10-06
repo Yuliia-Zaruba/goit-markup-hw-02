@@ -43,6 +43,7 @@ a {
 	color: #434455;
 }
 /*2PC!)У першому пункті списку, при ховері, у посилання, в класі заданий стиль color: #404bbf для зміни кольору шрифту при наведені мишкою  */
+
 .header-contact-link .link:hover {
 	color: #404bbf;
 }
@@ -79,13 +80,11 @@ a {
 	letter-spacing: 0.04em;
 	color: #fff;
 	cursor: pointer;
-	background-color: #4d5ae5;
-}
-/* ------Додала hover FOCUS------ */
-.hero-button .link:hover {
 	background-color: #404bbf;
 }
+/* ------Додала hover FOCUS------ */
 
+.hero-button .link:hover,
 .hero-button .link:focus {
 	background-color: #404bbf;
 }
@@ -129,6 +128,9 @@ a {
 }
 /* ---------добавила белый фон на h3 и р------------*/
 
+.team-list {
+	background-color: #ffffff;
+}
 .team-name {
 	font-weight: 500;
 	font-size: 20px;

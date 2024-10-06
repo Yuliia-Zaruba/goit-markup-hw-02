@@ -2,7 +2,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 ul {
   list-style: none;
@@ -119,6 +119,9 @@ a {
 .team {
   background-color: #f4f4fd;
 }
+.team-list {
+  background-color: #ffffff;
+}
 
 .team-section-title {
   font-weight: 700;
@@ -130,9 +133,6 @@ a {
   color: #2e2f42;
 }
 
-.team-list {
-  background-color: #ffffff;
-}
 .team-name {
   font-weight: 500;
   font-size: 20px;

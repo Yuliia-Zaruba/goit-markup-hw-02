@@ -40,7 +40,7 @@ a {
   color: #404bbf;
 }
 
-.contact {
+.header-contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -48,8 +48,8 @@ a {
   color: #434455;
 }
 
-.contact:hover,
-.contact:focus {
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: #404bbf;
 }
 
@@ -81,19 +81,19 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 /* ------Додала hover FOCUS------ */
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #4d5ae5;
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /*-----	Section 2---- */
 
 .service {
-  background: #fff;
+  background-color: #f4f4fd;
 }
 
 .service-heading,
@@ -127,7 +127,6 @@ a {
   text-align: center;
   color: #2e2f42;
 }
-/* ---------добавила белый фон на h3 и р------------*/
 
 .team-list {
   background-color: #ffffff;
@@ -139,7 +138,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  background: #ffffff;
 }
 
 .team-role {
@@ -149,13 +147,12 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  background: #ffffff;
 }
 
 /*-----	Section 4---- */
 
 .portfolio {
-  background: #fff;
+  background-color: #fff;
 }
 
 .portfolio-section-title {
